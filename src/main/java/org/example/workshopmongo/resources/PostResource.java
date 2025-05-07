@@ -25,5 +25,5 @@ public class PostResource {
         Post post = postService.findById(id);
         return ResponseEntity.ok().body(post);
     }
-    
+
 }
